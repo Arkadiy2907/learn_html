@@ -1,0 +1,17 @@
+.t {
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 200px auto;
+}
+.c {
+  width: 50px;
+  height: 50px;
+  background: orange;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  /* left: 100px;
+  top: 50px; */
+  
+}

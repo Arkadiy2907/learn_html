@@ -1,0 +1,37 @@
+
+
+html, body {
+  max-width: 800px;
+}
+.flex {
+  display: flex;
+  overflow: hidden; /* Отображается только область внутри элемента */
+}
+.item {
+  height: 400px;
+  flex: 15%;
+  transition: flex 1000ms ease; /* свойства перехода */
+  box-shadow: 0 0 10px 3px rgb(252, 64, 51);
+  margin: 1px;
+}
+/* когда наводим мышь на элемент */
+.item:hover {
+  flex: 0.1 1 80%;
+  background-size: 100% 100%;
+}
+
+.img1 { 
+  background: url("../pic/1.png") 0 0 no-repeat;
+}
+.img2 {
+  background: url("../pic/2.png") 0 0 no-repeat;
+}
+.img3 {
+  background: url("../pic/3.png") 0 0 no-repeat;
+}
+.img4 {
+  background: url("../pic/4.png") 0 0 no-repeat;
+}
+.img5 {
+  background: url("../pic/5.png") 0 0 no-repeat;
+}

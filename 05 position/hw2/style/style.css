@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top_pic {
+  display: block;
+  margin: 0 auto 3%;
+  width: 97%;
+}
+.background_all {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.background_center {
+  display: block;
+  margin: 3% auto;
+  width: 78%;
+  position: absolute;
+  top: 600px;
+  left: 139px;
+}
+.article h2{
+  position: absolute;
+  top: 470px;
+  left: 377px;
+}
+.article_2 {
+  color: blueviolet;
+  position: absolute;
+  top: 540px;
+  left: 579px;
+}
+.article_3 {
+  color: blueviolet;
+  position: absolute;
+  top: 570px;
+  left: 435px;
+}
+
+.sammer h3 {
+  text-transform: uppercase;
+  position: absolute;
+  top: 900px;
+  left: 229px;
+}
+.brands {
+  position: absolute;
+  top: 1580px;
+  left: 959px;
+  font-weight: 600;
+}
+.scale {
+  width: 180%;
+}
+.pic1 {
+  position: absolute;
+  top: 1000px;
+  left: 227px;
+}
+
+.pic2 {
+  position: absolute;
+  top: 1000px;
+  left: 529px;
+}
+.pic3 {
+  position: absolute;
+  top: 1000px;
+  left: 833px;
+}

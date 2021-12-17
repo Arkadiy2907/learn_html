@@ -1,0 +1,39 @@
+#menu {
+  width: 200px;
+  border: 1px solid blue;
+  background-color: #2696E8;
+  margin: 0 auto;
+}
+
+#menu ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  padding: 0px;
+  margin: 0px;
+  /* align-items: center; */
+}
+
+#menu li {
+  border: 1px solid blue;
+  /* text-align: center; */
+  
+}
+#menu a {
+  padding: 10px;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+a {
+  cursor: pointer;
+  
+
+}
+#menu a:hover {
+  background-color: white;
+  color: #2696E8;
+}

@@ -1,0 +1,46 @@
+/* использование float: right; и border-right: */
+/* aside {
+  width: 250px;
+  float: right;
+}
+section {
+  border-right: 250px solid #aaa;
+} */
+
+/* использование float: left; и #wrapper border-left */
+/* aside {
+  width: 14em;
+  float: left;
+  margin-left: -14em;
+}
+#wrapper {
+  border-left: 14em solid #ccc;
+} */
+
+/* использование float: left right clearfix */
+/* aside {
+  width: 25%;
+  float: right;
+}
+section {
+  width: 75%;
+  float: left;
+}
+#wrapper {
+  background: linear-gradient(to left,  rgb(211, 211, 211) 24%, #fff 26%);
+}
+.clearfix {
+  clear: both;
+} */
+
+/* использование float: left; и margin-left: */
+aside {
+  width: 25%;
+  float: left;
+}
+section {
+  margin-left: 25%;
+}  
+#wrapper {
+  background: linear-gradient(to right,  rgb(211, 211, 211) 24%, #fff 26%);
+}

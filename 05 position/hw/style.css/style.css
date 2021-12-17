@@ -1,0 +1,72 @@
+.block {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-orange {
+    background: orange;
+}
+
+.out-1 .t-1,
+.out-1 .t-2,
+.out-1 .t-3 {
+    position: relative;
+}
+
+.out-1 .t-2 {
+    left: 100px;
+}
+
+.out-1 .t-3 {
+    left: 200px;
+    top: -200px;
+}
+
+.bg-red {
+    background: rgb(255, 0, 0);
+}
+
+.out-2 .t-1,
+.out-2 .t-2,
+.out-2 .t-3 {
+    position: absolute;
+}
+
+.out-2 .t-1 {
+    left: 8px;
+}
+
+.out-2 .t-2 {
+    left: 108px;
+    bottom: 60px;
+}
+
+.out-2 .t-3 {
+    left: 208px;
+    bottom: -40px;
+}
+
+.bg-green {
+    background: rgb(21, 255, 0)
+}
+
+.out-3 .t-1,
+.out-3 .t-2,
+.out-3 .t-3 {
+    position: fixed;
+}
+
+.out-3 .t-1 {
+    left: 8px;
+    top: 10px;
+}
+
+.out-3 .t-2 {
+    left: 108px;
+    bottom: 60px;
+}
+
+.out-3 .t-3 {
+    left: 208px;
+    bottom: -40px;
+}

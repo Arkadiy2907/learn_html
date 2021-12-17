@@ -1,0 +1,66 @@
+.one::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 120px;
+  background-color: lightsalmon;
+}
+p::after {
+  content: "*********";
+  display: block;
+  margin: 20px auto;
+}
+.wrap {
+  width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background: chartreuse;
+}
+.two, .three {
+  float: left;
+  width: 50%;
+  background: darkblue;
+  min-height: 200px;
+} 
+.two {
+  background: cornflowerblue;
+}
+.three {
+  background: crimson;
+}
+/* замена старой записи чтоб флот не схлопывался */
+/* .clearfix {
+  display: block;
+  clear: both;
+} */
+/* на новую с использование ::after */ 
+div.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+a {
+  display: block;
+  background: royalblue;
+  width: 50px;
+  transition: all ease 1s;
+}
+a:hover {
+  color: red;
+  background: seagreen;
+  width: 550px;
+}
+input {
+  margin: 50px;
+  background: rgb(191, 216, 241);
+  border: 1px solid rgb(122, 142, 255);
+  transition: all ease 1s;
+}
+input:focus {
+  background: rgba(0, 255, 128, 0.438);
+  border: none;
+}
+input:active {
+  background: rgb(255, 171, 165);
+  border: none;  
+}

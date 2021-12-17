@@ -1,0 +1,23 @@
+/* p {
+    font-size: 24px;
+    font-family: 'arial';
+    font-style: italic ;
+   font-weight: 400;
+   color: #00aeff;
+   background: #080503;
+
+} */
+.one {
+    color: crimson;
+    background: pink;
+    min-height: 20px;
+}
+.two {
+    color: darkcyan;
+    font-weight: 900;
+    background: darkorange;
+    width: 50%;
+    height: 100px;
+    padding: 20px 30px 40px 50px;
+    margin: 40px;
+}
