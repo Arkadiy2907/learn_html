@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task1.1</title>
+  <meta name="description" content="implement layouts with blocks positioning as on picture below Using technologies Flex">
+  <style type="text/css">
+  * {
+  margin: 0;
+  box-sizing: border-box;
+  }
+  .box {
+    width: 140.25px;
+    height: 160px;
+  }
+
+  .item_Flex {
+    background: #ffffff;        
+    height: 480px;
+    width: 561px;
+    margin: 0px 7.5px;
+    display: flex;
+    flex-direction: row;
+  }
+  .flex1, .flex2, .flex3, .flex4 {
+    display: flex;
+    height: 480px;
+    width: 140.25px;
+  }
+  .flex1 {    
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .flex1 .box {
+    background: #74154f;
+  }
+  .flex2 {    
+    flex-direction: row;
+    align-items: center;
+  }
+  .flex2 .box {
+    background: #411b87;
+  }
+  .flex3 {    
+    flex-direction: column;
+  }
+  .flex3 .box {
+    background: #c95113;
+    flex-grow: 3;
+  }
+  .flex4 {    
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .flex4 .box {
+    background: #a53918;
+  }
+
+  .item_Grid {
+    background: #ffffff;
+    border-top: 2px solid black;
+    height: 480px;
+    width: 561px;
+    margin: 0px 7.5px;
+    display: grid;
+    grid-template: repeat(4, 1fr)/repeat(5, 1fr);
+  }
+  .grid1 {
+    background: #74154f;
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+  .grid2 {
+    background:#411b87;
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .grid3 {
+    background: #c95113;
+    grid-row: 1/4;
+    grid-column: 3/4;
+  }
+  .grid4 {
+    background: #a53918;
+    grid-row: 1/2;
+    grid-column: 4/5;
+  }
+  </style>
+</head>
+<body>
+  <div class="item_Flex">
+    <div class="flex1">
+      <div class="box"></div>
+    </div>
+    <div class="flex2">
+      <div class="box"></div>
+    </div>
+    <div class="flex3">
+      <div class="box"></div>
+    </div>
+    <div class="flex4">
+      <div class="box"></div>
+    </div>
+  </div>
+  <div class="item_Grid">
+    <div class="grid1">
+      <div class="box"></div>
+    </div>
+    <div class="grid2">
+      <div class="box"></div>
+    </div>
+    <div class="grid3">
+      <div class="box"></div>
+    </div>
+    <div class="grid4">
+      <div class="box"></div>
+    </div>
+  </div>
+</body>
+</html>

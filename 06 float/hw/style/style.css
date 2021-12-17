@@ -1,0 +1,44 @@
+/* тут проще учитывать внутренние отступы но эл уменьшается */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: Arial, Tahoma, sans-serif;
+  color: #222;
+  padding: 0;
+}
+header, 
+footer {
+  background: #000;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+footer {
+  clear: both;
+}
+aside,
+section {
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+nav ul li {
+  padding: 5px;
+  padding-left: 15px;
+  border-bottom: 1px dotted #333;
+}
+nav ul li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+/* наведен курсор */
+nav ul li :hover {
+  color: #666;
+  text-decoration: underline;
+}

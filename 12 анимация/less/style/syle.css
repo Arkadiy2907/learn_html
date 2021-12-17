@@ -1,0 +1,55 @@
+.c {
+  width: 100px;
+  height: 100px;
+  background: green;
+  animation-name: pp;
+  animation-duration: 1s;
+  animation-iteration-count: 2;
+}
+@keyframes pp {
+  from {}
+  to {
+    width: 500px;
+    background: greenyellow;
+  }
+}
+.a  {
+  width:99px;
+  height: 37px;
+  border: 5px solid rgb(47, 85, 255);
+  margin: 100px auto;
+  cursor: pointer;
+  overflow: hidden;/* заполнение в род див */
+}
+.b {
+  position: relative;
+  top: 0px;
+  background: antiquewhite;
+}
+.b .p-1, .b .p-2, .b .p-3 {
+  padding: 10px;
+  text-align: center;
+  background: rgb(111, 210, 30);
+  width: 80px;
+}
+.b .p-3 {
+  position: absolute;
+  left: -100px;
+  top: 38px;
+}
+.a:hover > .b {
+  animation-name: ttt;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes ttt {
+  0% {}
+  50% {
+    top: -39px;
+    left: 0;
+  }
+  100% {
+    top: -39px;
+    left: 100px; 
+  }
+}

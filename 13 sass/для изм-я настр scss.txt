@@ -1,0 +1,24 @@
+заходим в настройки json через ctrl shift p
+
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "expanded",  <=как будет сжиматься
+            "extensionName": ".css",  <= в какой файл преобр-я
+            "savePath": "/13 sass/style" <=куда будет создаваться файл css
+        } 
+
+        или 
+
+        {
+        "format": "expanded",
+            "extensionName": ".css",
+            "savePath": null  <=там же где и scss
+        }
+
+        или
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/dist/css"
+        }

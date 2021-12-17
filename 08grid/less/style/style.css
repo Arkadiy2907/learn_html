@@ -1,0 +1,115 @@
+.grid_body {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+
+/*   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+ */
+}
+
+.grid_item {
+  text-align: center;
+  border: 2px dashed red;
+  padding: 30px;
+}
+
+/* имена областей */
+.grid-wrapper {
+  display: grid;
+  grid-template: 
+    [start] "header header" 60px [row2]
+    [row2] "side content" 140px [row-end] / 150px 350px;
+/*   grid-template-columns: 150px 350px;
+  grid-template-rows: 60px 140px ;
+  grid-template-areas:
+   "header header"
+   "side content";
+ */
+}
+.grid-header,
+.gride-side,
+.gride-content {
+  padding: 30px;
+  border: 2px dashed blue;
+  margin: 0 0 15px 0;
+}
+.grid-header {
+  grid-area: header;
+}
+.gride-side {
+  grid-area: side;
+}
+.gride-content{
+  grid-area: content;
+}
+
+/* неявная сетка */
+.grid-auto {
+  display: grid;
+  /*
+  grid-template: repeat(2, 100px) / repeat(3, 150px); */
+  
+  /* grid-template: 100px 100px /  150px 150px 150px;
+   */
+  grid-auto-rows: 150px; 
+  grid-auto-columns: 100px;
+}
+.grid_auto_item {
+  text-align: center;
+  border: 2px dashed green;
+  padding: 30px;
+  font-size: 30px;
+}
+
+/* размещение с помощюю линии сетки */
+.grid__bodys {
+  display: grid;
+  grid-template-rows: [start] 150px [row2] 150px [row-end];
+  grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
+  /* grid-template: repeat(2, 2fr) / repeat(3, 1fr); */
+  /* justify-items: start;
+  align-items: end; */
+  /* row-gap: 20px;
+  column-gap: 20px; */
+  gap: 15px;
+}
+.gride__items {
+  border: 2px dashed rgb(0, 38, 255);
+  text-align: center;
+  padding: 30px;
+}
+.gride__items_1 {
+  /* margin: auto; */
+  /* justify-self: stretch;
+  align-self: stretch; */
+  /* grid-row-start: row-end;
+  grid-column-start: col2; */
+
+  /* grid-row: start / row-end;
+  grid-column: col2 / col3; */
+
+  /* grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: span 2; */
+  /* grid-column-end: 3; */
+  background-color: rgb(192, 190, 187);;
+}
+.gride__items_2 {
+  /* justify-self: end;
+  align-self: end; */
+}
+.gride__items_3 {
+
+}
+.gride__items_4 {
+
+}
+.gride__items_5 {
+
+}
+.gride__items_6 {
+
+}

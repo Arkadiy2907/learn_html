@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+}
+.container {
+  background-color: rgb(231, 229, 229);
+  
+  font-family: sans-serif;
+}
+
+.pic {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-color {
+  color: blueviolet;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.tabl-heading {
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 100%;
+}
+td, th {
+  border: 1px solid rgb(165, 165, 165);
+  height: 30px;
+}
+
+.tabl1 td {
+  padding-left: 10px;
+}
+.tabl1 tr th {
+  background-color: rgb(211, 208, 208);
+}
+.tabl1-big-down {
+  width: 500px;
+}
+
+.tabl2 {
+  background-color: rgb(255, 252, 249);
+}
+
+
+.tabl2 tr th {
+  background-color: orangered;
+  height: 30px;
+}
+
+.tabl2 tr td {
+  text-align: center;
+  height: 40px;
+}
+
+.down {
+  vertical-align: bottom; 
+}
+.up {
+  vertical-align: top;
+}
+.small {
+  width: 30px;
+}
+
+.tabl3 {
+  margin-bottom: 0;
+  border-top: hidden;
+  
+}
+.tabl3 tr {
+  border-top: solid rgb(255, 129, 11); 
+  text-align: center;
+}
+.tabl3 th, .tabl3 td  {
+  border-left: hidden;
+  border-right: hidden;
+ 
+}
+  
+.bottom {
+  border-bottom: solid rgb(179, 44, 212); 
+}
+.color {
+  color: aqua;
+}

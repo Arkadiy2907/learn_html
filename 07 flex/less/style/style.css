@@ -1,0 +1,68 @@
+.container {
+  border:2px solid red;
+  min-height: 300px;
+  display: flex;
+  /*направление оси*/
+  flex-direction: row;
+  /* flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse; 
+  
+  */
+  
+/*   поведение по строкам */
+  /* flex-wrap: nowrap; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+
+  /* распределение по ширине и для высоте flex-direction: column;
+   и для flex-direction: column-reverse;*/
+  justify-content: flex-start;
+  /* justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;  
+  justify-content: space-evenly;  */
+
+  /* выравнивание элементов */
+  align-items: flex-start;
+  align-items: flex-end; 
+  align-items: center;
+  align-items: stretch; 
+
+  /* строки внутри контейнера */
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: center;
+  align-content: stretch;
+}
+
+
+
+.item {
+  /* width: 100px; */
+  height: 100px;
+  background: orange;
+  margin: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+.h200 {
+/*   height: 200px;
+ */}
+.h150 {
+/*   height: 150px;
+ */}
+.250 {
+/*   height: 250px;
+ */}
+/* .test-item {
+  order: 2;
+  flex-grow: 2;
+} 
+.test-item2 {
+  order: 1;
+  flex-grow: 2;
+  flex-shrink: 3;
+  align-self: flex-end;
+}  */

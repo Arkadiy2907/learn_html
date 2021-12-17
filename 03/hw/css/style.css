@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+}
+/*обертка контейнер
+отступ сверху снизу 0 а с право лево авто
+максимальная ширина
+ширина всего контейнера
+*/
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 80%;
+}
+/*для заголовков
+по центру
+отступ сверху снизу 40 справо слево 0
+жирный без засечек
+*/
+h1, h2 {
+  text-align: center;
+  margin: 40px 0;
+  font-family: Impact, sans-serif;
+}
+/* 
+высота
+фонт: ариал без засечек
+расстояние между строк
+отступ снизу
+ */
+p, ul {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+/*отступ внутри списка снизу*/
+ul li {
+  margin-bottom: 20px;
+}
+/*pic
+Блочные элементы располагаются один над другим
+отступы сверху снизу 0 справо слево авто
+*/
+.pic {
+  display: block;
+  margin: 0 auto;
+}
+/*подписи под рис
+по центру
+высота букв
+отступ сверху
+стиль
+*/
+.img-discription {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+  font-style: italic;
+  }
+.red-text {
+  color: red;
+}
+.bold-text {
+  font-weight: 800;
+}
+  
